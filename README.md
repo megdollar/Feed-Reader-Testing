@@ -28,7 +28,6 @@ Initial Entries test suite ensures that the loadFeed function runs async and com
 
 ###### New Feed 
 
-[Knockout](http://knockoutjs.com/documentation/introduction.html) was utilized to dynamically update the app.
-
+New Feed test suite tests when a new feed is loaded, ensuring the content changes.
 
 
