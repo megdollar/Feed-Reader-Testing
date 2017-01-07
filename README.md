@@ -8,6 +8,8 @@ As a part of [Udacity's](http://www.udacity.com) Front-end Web Developer Nanodeg
 
 ##### The Application
 
+You can run this application locally by opening *index.HTM* in your browser.
+
 My live version is linked [here](https://megdollar.github.io/Feed-Reader-Testing/)
 
 This is a link to my GitHub [repo](https://github.com/megdollar/Feed-Reader-Testing)
