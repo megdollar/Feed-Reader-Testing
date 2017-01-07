@@ -93,11 +93,11 @@ $(function() {
          */
         beforeEach(function(done) {
             loadFeed(0, done);
-            });
+        });
         
         it('should load 1+ inital entries', function() {
-            entry = $('feed entry');
-            expect(entry).not.toBe(0);
+            entry = $('.feed .entry').length;
+            expect(entry.length).not.toBe(0);
         });
      });
 
