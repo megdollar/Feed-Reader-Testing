@@ -53,7 +53,6 @@ $(function() {
 
     /* This is a new test suite named "The menu" */
     describe('The menu', function() {
-        var spyEvent;
         /* This is a test that ensures the menu element is
          * hidden by default. 
          */
@@ -97,7 +96,7 @@ $(function() {
         
         it('should load 1+ inital entries', function() {
             entry = $('.feed .entry').length;
-            expect(entry.length).not.toBe(0);
+            expect(entry).toBeGreaterThan(0);
         });
      });
 
